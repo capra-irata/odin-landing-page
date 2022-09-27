@@ -6,7 +6,9 @@ a {
   text-decoration: none;
 }
 
-.header {
+/* Rename .welcome to .hero */
+.header,
+.welcome {
   background-color: #1F2937;
 }
 
@@ -16,15 +18,37 @@ a {
   padding: 0;
 }
 
-.header ul a {
+.header ul a,
+.welcome p {
   font-size: 18px;
   color: #E5E7EB;
 }
 
-#logo {
+#logo,
+#title {
   color: #F9FAF8;
 }
 
 #logo {
   font-size: 24px;
+}
+
+#title {
+  font-size: 48px;
+  font-weight: 1000;
+}
+
+button {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 32px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.welcome img {
+  width: 400px;
+  height: auto;
 }
