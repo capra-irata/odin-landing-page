@@ -121,20 +121,26 @@ button {
   object-fit: cover;
 }
 
+/* TODO Find alternative to excessive amounts of padding? Layout doesn't hold up as window is squished. */
 .testimonials {
   background-color: #E5E7EB;
   color: #1F2937;
+  padding: 128px 256px;
 }
 
 .quote {
+  margin: 0;
   font-size: 36px;
   font-style: italic;
   font-weight: 300;
+  text-align: center;
 }
 
 .quote-author {
+  margin-top: 4px;
   font-size: 20px;
   font-weight: 700;
+  text-align: right;
 }
 
 .call-to-action {
