@@ -166,11 +166,12 @@ button {
 }
 
 .call-to-action p {
-  margin: 8px 0px 0px 0px;
+  margin: 8px 32px 0px 0px;
 }
 
 .call-to-action button {
   border: 2px solid #F9FAF8;
+  flex: none;
 }
 
 .footer {
