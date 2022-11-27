@@ -54,12 +54,13 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 16px;
 }
 
 .hero-column-1 {
   max-width: 460px;
-/*   flex-shrink: 0; */
+  flex: none;
 }
 
 #title {
@@ -83,16 +84,17 @@ button {
   font-weight: bold;
 }
 
+/* TODO Find a way to shrink image with window size. */
 .hero img {
-  width: 460px;
-  height: 280px;
+  max-width: 460px;
+  max-height: 280px;
   object-fit: cover;
-  flex-shrink: 0;
 }
 
 .information-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 48px;
   margin-bottom: 96px;
 }
